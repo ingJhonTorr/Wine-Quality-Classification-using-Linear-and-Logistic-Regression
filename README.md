@@ -130,3 +130,16 @@ Conclusions drawn from the project:
 - Logistic regression outperforms linear regression in classifying high-quality wines.
 - The confusion matrices and classification reports highlight the differences in model performance.
 - The choice of an appropriate model is crucial for the task at hand.
+
+```python
+# Conclusion
+print("Linear Model - Mean Squared Error:", linear_loss)
+print("Logistic Model - Loss:", logistic_loss)
+print("Logistic Model - Accuracy:", logistic_accuracy)
+
+print("\nClassification Report - Linear Regression:")
+print(classification_report(y_test, linear_predictions))
+
+print("\nClassification Report - Logistic Regression:")
+print(classification_report(y_test, logistic_predictions))
+```
