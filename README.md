@@ -123,6 +123,9 @@ plt.ylabel("True")
 plt.tight_layout()
 plt.show()
 ```
+<div align=center>
+    <img src="https://github.com/ingJhonTorr/Wine-Quality-Classification-using-Linear-and-Logistic-Regression/blob/main/Data%20Visualization.png" alt="data-visualization" height="85%" width="85%">
+</div>
 
 ## Step 9: Conclusion
 
